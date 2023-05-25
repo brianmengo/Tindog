@@ -6,13 +6,13 @@ body{
     color: #fff;
 }
 #title .container-fluid{
-    padding: 3% 14% 9%;
+    padding: 3% 14% 13%;
 }
 
 .row h1{
     font-family: 'Montserrat';
     line-height: 1.5;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: bolder;
 
 }
@@ -23,7 +23,7 @@ body{
 }
 #testimonials h2{
     font-family: "Montserrat";
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: bold;
 }
 .row p{
@@ -52,7 +52,7 @@ body{
 .title-img{
     width: 60%;
     transform: rotate(25deg);
-    margin: 5% 0% 0% 0%;
+    margin: 5% 0;
     position: absolute;
     right: 30%;
 }
@@ -89,13 +89,13 @@ body{
 #press{
     background-color: #ef8172;
     text-align: center; 
-    padding: 0 3% 3%;
+    padding: 0 5% 3%;
 }
 .carousel-item{
     padding: 7% 15%; 
 }
 .press-img{
-    width: 15%;
+    width: 10%;
     margin: 20px 50px;
 }
 .lady-img{
@@ -107,7 +107,7 @@ body{
 /* pricing section   */
 
 #pricing{
-    padding: 100px;
+    padding: 50px;
     font-family: "Montserrat";
     text-align: center;
 }
@@ -129,8 +129,8 @@ body{
     .title-img{
         position: static;
         transform: rotate(0);
-
     }
+
 }
 /* Call to Action */
 #cta{
@@ -145,8 +145,8 @@ body{
     font-size: 2.5rem;
     line-height: 1.5;
 }
-.cta-btn{
-    margin:3% 13px;
+#cta .cta-btn{
+    margin:4% 2% 5% 0;
 }
 
 /* Footer */
@@ -158,6 +158,7 @@ body{
 .fa-icns{
     padding: 10px;
     margin-bottom: 3%;
+
 }
 .fa-icns:hover{
     color: #ff4c68;
